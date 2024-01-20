@@ -15,7 +15,16 @@ if __FILE__ == $PROGRAM_NAME
   puts "=>", reverse_string('catbaby')
 
   # Don't forget to add your own!
+
+  puts "Expecting: 'yob gib'"
+  puts "=>", reverse_string('big boy')
 end
 
 # Please add your pseudocode to this file
 # And a written explanation of your solution
+
+# newString = ""
+# for every char in string
+#   newString = char + newString behind
+# end
+# newString
