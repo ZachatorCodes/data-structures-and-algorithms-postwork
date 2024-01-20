@@ -1,5 +1,8 @@
 def reverse_string(str)
   # type your code in here
+  newString = ""
+  str.chars.each {|char| newString = char + newString}
+  newString
 end
 
 if __FILE__ == $PROGRAM_NAME
