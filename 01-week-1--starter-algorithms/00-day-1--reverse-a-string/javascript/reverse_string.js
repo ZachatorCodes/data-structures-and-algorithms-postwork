@@ -17,3 +17,14 @@ module.exports = reverseString;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+
+/**
+ * let newString;
+ * 
+ * for (last index of string; up until index = 0; remove one from index) {
+ *  add letter to newString
+ * }
+ * 
+ * return newString
+ *
+ */
